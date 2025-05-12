@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import YandexMetrika from "./components/yandexMetrica";
-import { Suspense } from "react";
+// import YandexMetrika from "./components/yandexMetrica";
+// import { Suspense } from "react";
 import Script from "next/script";
 import { Metadata } from "next";
 
