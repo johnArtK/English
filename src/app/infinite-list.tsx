@@ -56,12 +56,12 @@ export default function InfiniteList({
 
   return (
     <main className="p-4 max-w-2xl mx-auto">
-      <h1 className="text-2xl font-bold mb-4">3000 английских слов</h1>
+      <h1 className="justify-center flex text-2xl font-bold mb-4">3000 английских слов</h1>
       <ul className="space-y-2">
         {items.map((item) => (
           <li
             key={item.id}
-            className=" flex gap-3"
+            className="justify-center flex gap-3"
             // className="p-4 border rounded-lg shadow-sm hover:shadow transition"
           >
             <Tag color="cyan">{item.word}</Tag>
